@@ -1,0 +1,44 @@
+/* Style for the container of deck-building elements */
+.deck-builder-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+.DeckBuilder h2,
+.DeckBuilder p {
+	text-align: center;
+}
+
+/* Style for the deck section */
+.deck-section {
+	width: 70%;
+	margin: auto;
+}
+
+/* Style for the card list section */
+.card-list-section {
+	width: 30%;
+	border-left: 1px solid #ccc;
+	padding-left: 20px;
+	margin: auto;
+}
+
+/* Style for individual cards in the list */
+.card-list-item {
+	margin-bottom: 10px;
+}
+
+.deck {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* adjust the size as needed */
+	gap: 7.5px;
+}
+
+.card {
+	width: 200px; /* adjust as needed */
+	height: 300px; /* adjust as needed */
+	object-fit: cover; /* to maintain aspect ratio */
+}

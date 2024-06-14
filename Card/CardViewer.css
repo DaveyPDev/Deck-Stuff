@@ -1,0 +1,38 @@
+.CardViewer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.CardViewer h2,
+.CardViewer input,
+.CardViewer button {
+	/* This will center the text inside the elements */
+	text-align: center;
+}
+
+.searchBar {
+	margin-top: 10px;
+}
+
+.searchBTN {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.card-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+  padding: 0 20px;
+}
+
+.card:hover {
+	transform: scale(1.55);
+	transition: transform 0.3s ease-in-out;
+}
+
+
+

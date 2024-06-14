@@ -1,0 +1,126 @@
+.DeckCard {
+  border-radius: 8px;
+  overflow: hidden; /* Add this line to hide overflow */
+  width: 175px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;
+  position: relative; /* Add this line */
+}
+
+.DeckCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+}
+
+.DeckCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.DeckCard .buttonContainer {
+  position: absolute;
+  bottom: -30%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-around; /* Add this line to create space between buttons */
+  width: 50%; /* Add this line to make the container take the full width of the card */
+}
+
+.DeckCard button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.DeckCard button:hover {
+  background-color: #c0392b;
+}
+
+.cardCount {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.cardCount p {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+
+/* 
+
+.DeckCard {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  
+  
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  display: inline-block;  
+}
+
+.DeckCard img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.DeckCard h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.DeckCard button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(0%, -430%);
+}
+
+.DeckCard button:hover {
+  background-color: #c0392b;
+}
+
+
+.cardCount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  
+}
+
+.cardCount p {
+  transform: translate(0%, -425%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+ */

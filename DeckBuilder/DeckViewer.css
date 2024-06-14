@@ -1,0 +1,30 @@
+/* DeckViewer.css */
+
+.deck {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .deck-card {
+    position: relative;
+    
+  }
+
+  .DeckViewer .card {
+    margin: 10px; /* Adjust this value */
+    padding: 10px; /* Adjust this value */
+  }
+  
+  .cardcount {
+    position: absolute;
+    top: 5px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cardcount button {
+    margin-bottom: 5px; /* Adjust as needed for spacing between buttons */
+  }
+  
